@@ -35,3 +35,6 @@ class Note:
 
     def __repr__(self):
         return f"[{self.id}] ({self.tag}) {self.title} — {self.created}"
+    
+    def display(self):
+        return f"({self.tag}) {self.title} — {self.created}"
